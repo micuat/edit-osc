@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Start edit-osc",
+        "command": "edit-osc:start"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "edit-osc",
+          "submenu": [
+            {
+              "label": "Start",
+              "command": "edit-osc:start"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

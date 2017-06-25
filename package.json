@@ -1,0 +1,19 @@
+{
+  "name": "edit-osc",
+  "main": "./lib/edit-osc",
+  "version": "0.0.1",
+  "description": "Send buffer via OSC as you type",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "edit-osc:start"
+  },
+  "repository": "https://github.com/micuat/edit-osc",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "node-osc": "^2.1.0"
+  }
+}
